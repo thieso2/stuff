@@ -1,0 +1,14 @@
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+[merge]
+	tool = opendiff
+[user]
+	name = Thies C. Arntzen
+	email = thieso@gmail.com
+[color]
+	ui = auto
+[github]
+	user = thieso2
+	token = 95b42ab759bd6fbcddde35eecdee295d

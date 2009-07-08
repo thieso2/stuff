@@ -1,0 +1,5 @@
+Dir[ARGV[0]+"/*"].each do |gem|
+	base = File.basename(gem)
+	dummy, name, version = base.match(/(\S+)-([0-9\.]+)/).to_a
+	puts "gem install --no-rdoc --no-ri -v \"=#{version}\" #{name}"
+end
